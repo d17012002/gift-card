@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.3.1/lib/p5.js"></script>
+    <title>Scartch Card</title>
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section class="container">
+    <div class="content">
+     <h2>Dear Adeeba,</h2> <br>
+        <p>Tu Na Badi Cute Hai Yaar..
+            Keep smiling always 🤞❤
+        </p>
+        <br>
+        <p>- Anurag</p>
+    </div>
+
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/p5@1.3.1/lib/p5.js"></script>
+<script>
+    function setup() {
+        createCanvas(windowWidth,windowHeight);
+    }
+    function draw() {
+        strokeWeight(60);
+        if (mouseIsPressed == true){
+            line(mouseX,mouseY,pmouseX,pmouseY);
+        }
+
+    }
+
+</script>
+
+
+</body>
+</html>

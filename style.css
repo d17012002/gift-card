@@ -1,0 +1,50 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+section{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: black;
+
+}
+section .content{
+      max-width: 80%;
+      color: white;
+}
+
+section .content h2{
+      font-size: 50px;
+}
+section .content p{
+      font-size: 25px;
+
+}
+canvas{
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+      background: white;
+      z-index: 2;
+      mix-blend-mode: screen;
+}
+
+
+
+
+
+
+
+
+
+
+
+
