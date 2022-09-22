@@ -8,6 +8,8 @@ body{
       overflow-x: hidden;
 }
 section{
+            overflow-y: hidden;
+      overflow-x: hidden;
       position: absolute;
       top: 0;
       left: 0;
